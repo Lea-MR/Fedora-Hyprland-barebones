@@ -14,7 +14,7 @@ sudo dnf install polkit polkit-gnome
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-cp ./config-files/. ~/.config/
+cp -a ./config-files/. ~/.config/
 
 echo "Done!"
 
