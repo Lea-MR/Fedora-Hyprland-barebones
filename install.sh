@@ -8,10 +8,11 @@ fi
 clear
 
 sudo dnf copr enable solopasha/hyprland
-sudo dnf install hyprland hyprlock hypridle hyprpaper waybar zsh
+sudo dnf install hyprland hyprlock hypridle hyprpaper waybar dunst zsh
+sudo dnf install pipewire wireplumber
+sudo dnf install polkit polkit-gnome
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 
 cp ./config-files/. ~/.config/
 
