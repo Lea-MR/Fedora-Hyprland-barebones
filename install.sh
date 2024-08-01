@@ -8,7 +8,7 @@ fi
 clear
 
 sudo dnf copr enable solopasha/hyprland
-sudo dnf install hyprland hyprlock hypridle hyprpaper waybar dunst zsh
+sudo dnf install hyprland hyprlock hypridle hyprpaper waybar dunst zsh wlogout
 sudo dnf install pipewire wireplumber
 sudo dnf install polkit polkit-gnome
 
