@@ -1,42 +1,31 @@
 * {
 	background-image: none;
 	box-shadow: none;
-    text-shadow: 1px 1px 2px black;
 }
 
 window {
-	background-color: rgba(50, 50, 50, 0.5);
-    font-family: "Source Code Pro";
-    font-size: 32px;
+	background-color: rgba(12, 12, 12, 0.9);
 }
 
 button {
-    border-radius: 15px;
-	margin: 10px;
-    border-color: white;
-    border-style: solid;
-	border-width: 2px;
-    /* ICON COLOR */
-    color: white;
-    background-color: rgba(50, 50, 50, 0.5);
-    /* background-size: 20%; */
-    background-repeat: no-repeat;
+    border-radius: 0;
+    border-color: black;
+	text-decoration-color: #FFFFFF;
+    color: #FFFFFF;
+	background-color: #1E1E1E;
+	border-style: solid;
+	border-width: 1px;
+	background-repeat: no-repeat;
 	background-position: center;
-	
+	background-size: 25%;
 }
 
-button:focus, 
-button:active, 
-button:hover {
-    border-width: 2px;
-    border-style: solid;
-    font-size: 48px;
-    /* border-image: linear-gradient(135deg, rgba(51, 204, 255, 0.933), rgba(0, 255, 153, 0.933)) 2; */
-    /* border-color: rgba(0, 255, 153, 0.9); */
-    background: linear-gradient(135deg, rgba(51, 204, 255, 0.9) 0%, rgba(0, 255, 153, 0.9) 60%);
+button:focus, button:active, button:hover {
+	background-color: #3700B3;
+	outline-style: none;
 }
 
-/* #lock {
+#lock {
     background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
 }
 
@@ -58,4 +47,4 @@ button:hover {
 
 #reboot {
     background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
-} */
+}
