@@ -1,39 +1,55 @@
+* {
+    border-radius: 3px;
+    border: none;
+    text-shadow: 1px 1px 2px black;
+}
+
 window {
-margin: 0px;
-border: 1px solid #88c0d0;
-background-color: #2e3440;
+    font-size: 24px;
+    font-family: "Source Code Pro";
+    margin: 0px;
+    /* border: 10px solid rgba(255, 255, 255, 1); */
+    background-color: rgba(50, 50, 50, 0.9);
+    color: white;
+    /* border-bottom: 3px white; */
 }
 
 #input {
-margin: 5px;
-border: none;
-color: #d8dee9;
-background-color: #3b4252;
+    padding: 0.25em;
+    color: white;
+    background-color: rgba(50, 50, 50, 0.5);
 }
 
 #inner-box {
-margin: 5px;
-border: none;
-background-color: #2e3440;
+    /* margin: 5px;
+    border: none;
+    background-color: #2e3440; */
 }
 
 #outer-box {
-margin: 5px;
-border: none;
-background-color: #2e3440;
+    /* margin: 5px;
+    border: none;
+    background-color: #2e3440; */
 }
 
 #scroll {
-margin: 0px;
-border: none;
+    /* margin: 0px;
+    border: none; */
 }
 
 #text {
-margin: 5px;
-border: none;
-color: #d8dee9;
+    /* margin: 5px;
+    border: none;
+    color: #d8dee9; */
+}
+
+#entry {
+    padding: 0.25em;
 }
 
 #entry:selected {
-background-color: #3b4252;
+    background-color: #323232;
+    /* background: linear-gradient(45deg, rgba(144,205,250,0.7) 0%, rgba(182,155,241,0.7) 100%); */
+    background: linear-gradient(45deg, rgba(51, 204, 255, 0.933) 0%, rgba(0, 255, 153, 0.933) 60%);
+    font-size: 28px;
 }
