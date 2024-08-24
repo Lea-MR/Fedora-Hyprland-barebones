@@ -10,11 +10,13 @@ fi
 clear
 
 sudo dnf copr enable solopasha/hyprland
-sudo dnf install hyprland hyprlock hypridle hyprpaper waybar dunst zsh wlogout
+sudo dnf install hyprland hyprlock hypridle hyprpaper hyprshot waybar zsh wlogout
 sudo dnf copr enable erikreider/SwayNotificationCenter
 sudo dnf install SwayNotificationCenter
 sudo dnf install pipewire wireplumber
 sudo dnf install polkit polkit-gnome
+sudo dnf install network-manager-applet
+
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
